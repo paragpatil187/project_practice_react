@@ -1,0 +1,22 @@
+
+.comment_section{
+    position: relative;
+}
+.post_btn{
+    position: absolute;
+    right: 2%;
+    top: 1.5vh;
+    border: none;
+    background-color: white;
+    color: skyblue;
+}
+.input_comment{
+    padding-left: 10%;
+  
+}
+
+.happy_imogi{
+    position: absolute;
+    left: 2%;
+    top: 1.5vh;
+}

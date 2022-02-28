@@ -1,0 +1,7 @@
+.see_all_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+   margin-bottom: 2vh;
+}

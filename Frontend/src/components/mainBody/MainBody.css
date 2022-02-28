@@ -1,0 +1,35 @@
+.main_body{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    position: relative;
+}
+
+.post_side{
+    width: 66%;
+ 
+}
+
+.ac_follow_side{
+    width: 34%;
+    /* border: 2px solid black; */
+    height: 70vh;
+    padding-left: 1%;
+    position: sticky;
+    /* z-index: 1; */
+    /* top: 0; */
+}
+
+
+@media (max-width:1025px) {
+    .main_body{
+        width: 100%;
+    }
+    .post_side{
+        width: 100%;
+     
+    }
+    .ac_follow_side{
+       display: none;
+    }
+}

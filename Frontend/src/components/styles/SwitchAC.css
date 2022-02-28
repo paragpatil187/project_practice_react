@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.switch_user_div{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: relative;
+}
+.user_avatar{
+    margin: 1rem;
+    border: 0.001rem solid gray;
+}
+
+.switch_btn{
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: #fafafa;
+    color: skyblue;
+    cursor: pointer;
+}

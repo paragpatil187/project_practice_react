@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_body{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    position: relative;
+}
+
+.post_side{
+    width: 66%;
+ 
+}
+
+.ac_follow_side{
+    width: 34%;
+    overflow: hidden;
+    height: 70vh;
+    padding-left: 1%;
+    position: fixed;
+    
+   
+}
+
+
+@media (max-width:1025px) {
+    .main_body{
+        width: 100%;
+    }
+    .post_side{
+        width: 100%;
+     
+    }
+    .ac_follow_side{
+       display: none;
+    }
+}
